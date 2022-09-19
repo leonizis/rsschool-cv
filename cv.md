@@ -44,7 +44,10 @@ function testFactorial(a) {
     * Photoshop
     * OpenCart/WordPress
 
-
+## Languages
+* Russian
+* Belarusian
+* Polish (spoken)
 
 
     
