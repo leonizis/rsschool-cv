@@ -39,6 +39,12 @@ function testFactorial(a) {
 1. **Stepik — educational platform:**
     * [Python](https://stepik.org/cert/1308575)
     * HTML/CSS
+2. **Independent study:**
+    * Java Script
+    * Photoshop
+    * OpenCart/WordPress
+
+
 
 
     
