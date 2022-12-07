@@ -20,17 +20,13 @@ h3{
 	margin: 0;
 }
 .header{
-	border: 1px solid red;
+	
 	background-color: #121312;
 	
 }
 
-.main{
-	border: 1px solid red;
-}
-.footer{
-	border: 1px solid red;
-}
+
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -54,7 +50,7 @@ h3{
 	transition: color 0.5s;
   }
 .nav-item a:hover {
-	color: #4d2323;
+	color: #fff;
   }
 html {
 	scroll-behavior: smooth; 
@@ -97,31 +93,54 @@ html {
 	max-width: 350px;
 	justify-content: center;
 	overflow: hidden;
-	border: 10px solid rgb(200, 38, 38);
+	border: 10px solid rgb(193, 193, 193);
 	border-radius: 27% 73% 48% 52% / 17% 38% 62% 83%;
 	box-shadow: rgba(0, 0, 0, 0.5);
   }
-  .section{
+  .contact{
 	width: 100%;
-	padding: 15px 0;
 	min-height: 10vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items:center;
-	background-color:rgba(57, 56, 56, 0.5)
-  }
+	background-color:rgb(156 155 155);
+
+}
+.selection-contact{
+	width: 100%;
+    padding: 15px 0;
+    text-align: center ;
+}
+
   .contact-title{
 	align-items: center;
 	grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
 	justify-content: center;
 	align-items: center;
 }
+.contact-tutitle{
+	width: 100%;
+	text-align: center;
+	background-color: rgb(127 127 127);
+	
+}
 .contact-list{
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 	list-style: none;
+	text-align: center;
+	justify-content: space-around;
+	
+}
+.contact-tulist{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	list-style: none;
+	text-align: center;
+	justify-content: space-around;
 	
 }
 .contact-item{
@@ -130,5 +149,45 @@ html {
 	transition: .3s;
 	cursor: pointer;
 	text-align: center;
+}
+.contact-tuitem{
+	padding: 0 20px;
+	line-height: 50px;
+	transition: .3s;
+	cursor: pointer;
+	text-align: center;
+}
+.about-title{
+	align-items: center;
+	grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+	justify-content: center;
+	align-items: center;
+}
+.about-tutitle{
+	align-items: center;
+	grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+	justify-content: center;
+	align-items: center;
+}
+.about{
+	width: 100%;
+	min-height: 10vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	background-color:rgb(156 155 155);
+	
+}
+.selection-about{
+	width: 100%;
+	padding: 10px 0;
+	text-align: center;
+}
+.about-tutitle{
+	width: 100%;
+	padding: 10px 0;
+	text-align: center;
+	background-color: rgb(127 127 127);
 }
 
