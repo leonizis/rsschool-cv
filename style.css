@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+
   }
 
 
@@ -45,7 +46,7 @@ h3{
 	cursor: pointer;
   }
 .nav-item a {
-	color: #829985;
+	color: #9a9a9a;
 	text-decoration: none;  
 	transition: color 0.5s;
   }
@@ -58,15 +59,16 @@ html {
   .hero{
 	width: 100%;
 	padding: 15px 0;
-	min-height: 100vh;
+	/* min-height: 100vh; */
 	display: flex;
+	flex-direction: row-reverse;
 	justify-content: center;
-	align-items:center;
+	/* align-items:center; */
 	background-color:rgba(0, 0, 0, 0.5)
   }
   .hero_container{
 	max-width: 1230px;
-	width: 100%;
+	width: 50%;
 	margin: 0 auto;
 	padding: 0 15px;
 	display: grid;
@@ -83,15 +85,19 @@ html {
 	margin-bottom: 20px;
 	font-size: 48px;
 	line-height: 1.1;
+	text-align: center;
+
   }
   .hero_tutitle{
 	margin-bottom: 20px;
 	font-size: 24px;
 	line-height: 1.1;
+	text-align: center;
   }
   .hero_box{
-	max-width: 350px;
+	max-width: 400px;
 	justify-content: center;
+
 	overflow: hidden;
 	border: 10px solid rgb(193, 193, 193);
 	border-radius: 27% 73% 48% 52% / 17% 38% 62% 83%;
@@ -128,18 +134,18 @@ html {
 .contact-list{
 	display: flex;
 	justify-content: flex-start;
-	align-items: center;
+	/* align-items: center; */
 	list-style: none;
-	text-align: center;
+	/* text-align: center; */
 	justify-content: space-around;
 	
 }
 .contact-tulist{
 	display: flex;
 	justify-content: flex-start;
-	align-items: center;
+	/* align-items: center; */
 	list-style: none;
-	text-align: center;
+	/* text-align: center; */
 	justify-content: space-around;
 	
 }
@@ -157,12 +163,8 @@ html {
 	cursor: pointer;
 	text-align: center;
 }
-.about-title{
-	align-items: center;
-	grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-	justify-content: center;
-	align-items: center;
-}
+	
+
 .about-tutitle{
 	align-items: center;
 	grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
@@ -171,10 +173,8 @@ html {
 }
 .about{
 	width: 100%;
-	min-height: 10vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items:center;
 	background-color:rgb(156 155 155);
 	
@@ -190,4 +190,95 @@ html {
 	text-align: center;
 	background-color: rgb(127 127 127);
 }
+.my-skills{
+	width: 100%;
+	/* padding: 10px 0; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(156 155 155);
+	
+}
+.selection-my-skills{
+	width: 100%;
+    padding: 15px 0;
+    text-align: center ;
+}
+.my-skills-tutitle{
+	width: 100%;
+	padding: 10px 0;
+	text-align: center;
+	
+}
+.my-skills-list{
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	
+	
+}
+.my-skills-tutitle{
+	width: 100%;
+	padding: 10px 0;
+	text-align: center;
+	background-color: rgb(127 127 127);
+}
+.my-skills-item{
+	padding: 0 20px;
+	/* line-height: 50px; */
+	/* transition: .3s; */
+	/* cursor: pointer; */
+	text-align: center;
+}
+.code-example{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	background-color:rgb(156 155 155);
+}
+.selection-code-example{
+	width: 100%;
+	text-align: center;
+	padding: 15px 0;
+}
+.code-example-tutitle{
+	width: 100%;
+	text-align: center;
+	background-color:rgb(127 127 127);
+}
+pre{
+	margin: 1pc 10pc;
+	background-color:rgb(156 155 155);
+	
+}
+.education-and-courses{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color:rgb(156 155 155)
 
+}
+.selection-education-and-courses{
+	width: 100%;
+	text-align: center;
+	padding: 15px 0;
+}
+.education-and-courses-tutitle{
+	width: 100%;
+	text-align: center;
+	background-color:rgb(127 127 127);
+}
+.education-and-courses-list{
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+}
+
+.education-and-courses-tuitem{
+	padding: 10px 0;
+	list-style: none;
+	font-style: italic;
+	font-family: 'Courier New', Courier, monospace;
+}
