@@ -1,7 +1,8 @@
 * {
     box-sizing: border-box;
-	margin: 0;
+	margin: auto;
 	padding: 0;
+	max-width: 1440px;
 
   }
 
@@ -23,6 +24,9 @@ h3{
 	margin: 0;
 }
 .header{
+	margin: 0;
+	padding: 0;
+	max-width: 1440px;
 	
 	background-color: #121312;
 	
@@ -31,8 +35,12 @@ h3{
 
 
 .container {
-    max-width: 1440px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
+	padding: 0;
+  }
+  .nav{
+	width: 100%;
   }
 
 .nav-list {
@@ -124,7 +132,7 @@ html {
     text-align: center ;
 }
 
-  .contact-title{
+  .title{
 	align-items: center;
 	grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
 	justify-content: center;
@@ -163,9 +171,8 @@ html {
 	cursor: pointer;
 	text-align: center;
 }
-.about-title{
-	color: rgb(224 168 14);
-}
+
+
 .contact-tuitem{
 	padding: 5px 20px;
 	/* line-height: 50px; */
@@ -217,9 +224,6 @@ html {
     padding: 15px 0;
     text-align: center ;
 }
-.my-skills-title{
-	color: rgb(224 168 14);
-}
 .my-skills-tutitle{
 	width: 100%;
 	padding: 10px 0;
@@ -258,9 +262,8 @@ html {
 	text-align: center;
 	padding: 15px 0;
 }
-.code-example-title{
-	color: rgb(224 168 14);
-}
+
+
 .code-example-tutitle{
 	width: 100%;
 	text-align: center;
@@ -295,9 +298,7 @@ background-color:rgb(156 155 155)
 	list-style: none;
 	justify-content: space-around;
 }
-.education-and-courses-title{
-	color: rgb(224 168 14);
-}
+
 
 .education-and-courses-tuitem{
 	padding: 10px 0;
@@ -307,7 +308,9 @@ background-color:rgb(156 155 155)
 }
 
 .footer{
-	background-color:rgba(0, 0, 0, 0.8)
+	background-color:rgba(0, 0, 0, 0.8);
+	margin: 0;
+	padding: 10px;
 }
 .footer-container{
 	width: 100%;
