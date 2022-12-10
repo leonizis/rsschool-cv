@@ -65,6 +65,7 @@ h3{
   }
 html {
 	scroll-behavior: smooth; 
+	display: flex;
   }
   .hero{
 	width: 100%;
@@ -311,6 +312,7 @@ background-color:rgb(156 155 155)
 	background-color:rgba(0, 0, 0, 0.8);
 	margin: 0;
 	padding: 10px;
+	
 }
 .footer-container{
 	width: 100%;
